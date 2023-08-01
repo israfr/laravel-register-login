@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <!-- Captain Icon -->
-    <link rel="stylesheet" href="captain-icons/dist/captain-icons.css">
+    <link rel="stylesheet" href="/captain-icons/dist/captain-icons.css">
 </head>
 
 <body>

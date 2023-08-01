@@ -8,6 +8,9 @@
     <title>{{ $title }}</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Captain Icon -->
+    <link rel="stylesheet" href="captain-icons/dist/captain-icons.css">
 </head>
 
 <body>
@@ -50,7 +53,10 @@
 
                         <div class="form">
                             <label for="" class="form-label">Password</label>
-                            <input type="password" class="form-control" name="password">
+                            <input type="password" class="form-control" name="password" id="passwordField">
+                            <button class="eye" type="button" onclick="seePassword()">
+                                <i class='cap-icon ci-eye'></i>
+                            </button>
 
                             @error('password')
                             <div class="invalid-feedback">
@@ -71,6 +77,9 @@
             </form>
         </div>
     </section>
+
+
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
